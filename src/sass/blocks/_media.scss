@@ -40,19 +40,8 @@
         }
     }
     .advantages {
-        h2 {
-            padding-top: 30px;
-        }
         &__items {
             flex-direction: column;
-            align-items: center;
-            &_bold {
-                font-size: 24px;
-            }
-            &_normal {
-                font-size: 20px;
-                line-height: 23px;
-            }
         }
         &__item {
             width: 100%;
@@ -110,5 +99,8 @@
             margin: 0 auto;
             margin-top: 10px;
         }
+    }
+    .consultation {
+        padding: 30px;
     }
 }
