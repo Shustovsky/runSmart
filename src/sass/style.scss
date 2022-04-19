@@ -6,7 +6,9 @@
 @import "blocks/advantages";
 @import "blocks/media";
 * {
-    font-family: 'MuseoModerno', sans-serif
+    font-family: 'MuseoModerno', sans-serif;
+    outline: 1px solid red;
+    /* подчеркивает каждый элемент карсным */
 }
 
 .container {
