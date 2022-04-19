@@ -49,6 +49,17 @@
             padding-left: 15%;
         }
     }
+    .consultation {
+        min-height: 600px;
+        padding: 30px;
+        &__descr {
+            font-size: 19px;
+        }
+    }
+    .title_white {
+        font-size: 22px;
+        line-height: 46px;
+    }
 }
 
 @media (max-width:575px) {
@@ -101,6 +112,20 @@
         }
     }
     .consultation {
+        min-height: 600px;
         padding: 30px;
+        &__descr {
+            font-size: 19px;
+        }
+    }
+    .title_white {
+        font-size: 22px;
+        line-height: 46px;
+    }
+    .feed-form {
+        width: 100%;
+        input {
+            font-size: 28px;
+        }
     }
 }
