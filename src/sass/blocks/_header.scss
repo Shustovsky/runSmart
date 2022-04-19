@@ -33,5 +33,9 @@
         display: flex;
         flex-direction: column;
         align-items: flex-end;
+        a {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
     }
 }
