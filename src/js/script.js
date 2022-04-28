@@ -2,7 +2,9 @@ const slider = tns({
     container: '.carousel__inner',
     mode: 'carousel',
     items: 1,
-    autoplay: false,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    autoplayButtonOutput: false,
     nav: false,
     controls: false,
     /* 
