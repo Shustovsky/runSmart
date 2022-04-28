@@ -1,0 +1,36 @@
+.feedback {
+    min-height: 920px;
+    margin-bottom: 55px;
+    &-items {
+        &__item {
+            margin-top: 60px;
+            display: flex;
+            &__img {
+                width: 169px;
+                height: 169px;
+                border-radius: 100%;
+                margin-right: 61px;
+            }
+            &__text {
+                max-width: 680px;
+                padding-right: 35px;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 22px;
+                color: #0D0D0D;
+                &_name {
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 18px;
+                }
+                &_maraphons {
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 22px;
+                    color: #646464;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}

@@ -7,11 +7,13 @@
 @import "blocks/consultation";
 @import "blocks/titles";
 @import "blocks/forms";
-@import "blocks/media";
 @import "blocks/carousel";
 @import "blocks/catalog";
+@import "blocks/feedback";
+@import "blocks/media";
 * {
     font-family: 'MuseoModerno', sans-serif;
+    font-style: normal;
     /* outline: 1px solid red; */
     /* подчеркивает каждый элемент карсным */
 }
