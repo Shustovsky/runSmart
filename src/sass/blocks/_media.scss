@@ -73,6 +73,7 @@
             font-size: 19px;
         }
     }
+    .title,
     .title_white {
         font-size: 22px;
         line-height: 46px;
@@ -128,6 +129,10 @@
         font-size: 24px;
     }
     .promo {
+        &__header {
+            font-size: 20px;
+            line-height: 25px;
+        }
         &__wrapper {
             flex-wrap: wrap;
             margin: 0 auto;
@@ -163,10 +168,17 @@
         font-size: 22px;
         line-height: 46px;
     }
+    .title_white {
+        font-size: 22px;
+        line-height: 46px;
+    }
     .feed-form {
         width: 100%;
         input {
             font-size: 28px;
         }
+    }
+    .footer__info {
+        width: 100%;
     }
 }
