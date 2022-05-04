@@ -17,6 +17,13 @@
             color: red;
             font-size: 60px;
             text-align: center;
+            span.icon-heart {
+                display: inline-block;
+                animation: heartbeat 1.5s ease infinite;
+                &:hover {
+                    animation-play-state: paused;
+                }
+            }
         }
         &_bold {
             font-weight: 700;
