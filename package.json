@@ -1,16 +1,35 @@
 {
+    "name": "runsmart2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
     "devDependencies": {
-        "browser-sync": "^1.9.2",
-        "gulp": "github:gulpjs/gulp",
+        "browser-sync": "^2.27.9",
+        "chokidar": "^3.5.3",
+        "gulp": "^4.0.2",
         "gulp-autoprefixer": "^6.1.0",
         "gulp-clean-css": "^4.3.0",
         "gulp-cli": "^2.3.0",
         "gulp-htmlmin": "^5.0.1",
+        "gulp-imagemin": "^7.1.0",
         "gulp-rename": "^2.0.0",
         "gulp-sass": "^5.1.0",
-        "sass": "^1.51.0"
+        "resolve-url": "^0.2.1",
+        "sass": "^1.51.0",
+        "source-map-resolve": "^0.6.0",
+        "source-map-url": "^0.4.1",
+        "svgo": "^2.8.0",
+        "uuid": "^8.3.2"
     },
-    "dependencies": {
-        "gulp-imagemin": "^4.1.0"
-    }
+    "browserslist": [
+        "last 1 version",
+        "> 1%",
+        "maintained node versions",
+        "not dead"
+    ]
 }

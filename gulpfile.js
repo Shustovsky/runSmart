@@ -26,7 +26,7 @@ gulp.task('styles', function() {
         .pipe(autoprefixer())
         .pipe(cleanCSS({ compatibility: 'ie8' }))
         .pipe(gulp.dest("dist/css"))
-        .pipe(browserSync.reload({ stream: true }));
+        .pipe(browserSync.stream());
 });
 
 // задачи, которые галп одновременно просматривает и обновляет в браузере
@@ -53,20 +53,19 @@ gulp.task('fonts', function() {
 });
 
 gulp.task('icons', function() {
-    return gulp.src("src/js/**/*")
+    return gulp.src("src/icons/**/*")
         .pipe(gulp.dest("dist/icons"));
 });
 
 gulp.task('mailer', function() {
-    return gulp.src("src/js/**/*")
+    return gulp.src("src/mailer/**/*")
         .pipe(gulp.dest("dist/mailer"));
 });
 
 gulp.task('images', function() {
-    return gulp.src("src/js/**/*")
+    return gulp.src("src/img/**/*")
         .pipe(imagemin())
         .pipe(gulp.dest("dist/img"));
 });
-
 
 gulp.task('default', gulp.parallel('watch', 'server', 'styles', 'scripts', 'fonts', 'icons', 'mailer', 'html', 'images'));
